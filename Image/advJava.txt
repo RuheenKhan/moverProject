@@ -1,0 +1,1 @@
+String n,@RequestParam("email") String e,@RequestParam("pass") String p, Model m
