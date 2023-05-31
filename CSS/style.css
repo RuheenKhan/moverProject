@@ -1,46 +1,96 @@
-* {
-    margin: 0;
-    padding: 0;
+*{
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
-
-.text-justify {
+a{text-decoration: none;}
+.text-justify{
     text-align: justify;
 }
 
+
+/* tophead Section Start */
 header .topHead{
     height: 28px;
-    background-color:  #292b2c;
+    background: #34313a;
 }
 
-header .topHead .leftgroup ul li {
+header .topHead ul li {
     margin: 0px 20px;
 }
 
-header .topHead .leftgroup ul li a {
+header .topHead ul li a {
     color: white;
-    font-size: 13px;
-    text-decoration: none;
+    font-size: 12px;
 }
 
 header .topHead .leftgroup ul li a:hover{
     text-decoration: underline;
-    
 }
 
 header .topHead .rightgroup ul li {
-    margin: 0px 20px;
+      margin: 0px 15px;
 }
 
-header .topHead .rightgroup ul li a {
-    text-decoration: none;
+header .topHead .rightgroup ul li select {
+    background-color: #34313a;
+    border: none;
     color: white;
-    font-size: 13px;
 }
 
-nav a {
+header .topHead .leftgroup ul li a.active{
+    width: auto;
+    height:auto;
+    color: #b00000;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    position: relative;
+    background: #fff;
+    display: inline-block;
+}
+header .topHead .leftgroup ul li a.active:hover{
+    text-decoration: none;
+}
+header .topHead .leftgroup ul li a.active::before{
+    content: "";
+    top: 0px;
+    width: 0;
+    height: 0;
+    right: 100%;
+    position: absolute;
+    border-right: 15px solid #fff;
+    border-bottom: 0px solid #fff;
+    border-top: 28px solid transparent;
+}
+header .topHead .leftgroup ul li a.active::after{
+    content: "";
+    top: 0px;
+    width: 0;
+    height: 0;
+    left: 100%;
+    position: absolute;
+    border-top: 28px solid #fff;
+    border-right: 15px solid transparent;
+    border-bottom: 0px solid transparent;
+}
+header .topHead .leftgroup ul li a:hover{
+    text-decoration: underline;
+}
+/* ----------------------------------------------------------- */
+
+nav a{
     font-size: 14px !important;
     font-weight: 600 !important;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0px;   
+}
+/* Navbar Section End */
+/* Slider Section Start */
+.carousel-inner .carousel-item{
+    height: 500px;
 }
 
 .dropdown:hover .dropdown-menu{
@@ -93,9 +143,74 @@ nav a {
     bottom: 5.50rem !important ;
 }
 
+/* ---------------------------------------------- */
+
+.shape1 {
+    width: 80%;
+}
+.col h3 {
+    
+    text-align: left;
+    padding-left: 35px;
+    padding-top: 80px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.col h3::after{
+    content: '';
+    width: 86px;
+    background: #b00000;
+    display: block;
+    height: 2px;
+    margin-top: 23px;
+    margin-left: -17px;
+}
+
+.col p {
+    text-align: justify;
+    padding-top: 23px;
+    padding-left: 10px;
+}
+
+.branchbtn {
+    margin-top: 20px;
+}
+.branchbtn a {
+    border: 2px solid white;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 14px !important;
+    padding: 7px 25px;
+}
+
+
+.branchbtn  #bt {
+    background: rgba(176, 0, 0, 0.58);
+    margin-right: 18px;
+}
+
+.branchbtn  #bt:hover {
+    background-color: #9a0101;
+    border: 2px solid white;
+    color: #fff;
+}
+
+.branchbtn #bt1:hover {
+    border-color: #9a0101;
+    background-color: #9a0101;
+    color: #fff;
+}
+
+.branchbtn #bt1{
+    font-weight: 600;
+}
+
 /* ---------------------------------------------------------------- */
 .row2 #shape {
-    background-image: url("/Image/slider3-virtual-visit5.png");
+    background-image:linear-gradient(rgba(4, 4, 10, 0.8),rgba(3, 3, 6, 0.8)), url("/Image/slider3-virtual-visit5.png");
     background-size: cover;
     height: 450px;
     margin: 0px;
@@ -144,6 +259,64 @@ nav a {
     padding-left:15px ;
 }
 
+
+.services .btnclass {
+    display: flex;
+}
+
+.services .btnclass .btn {
+    border: 2px solid #b00000;
+    border-radius: 0%;
+    padding: 8px 30px;
+    font-size: 14px;
+    font-weight: 600;
+    
+    
+}
+
+.services #btn1 {
+    margin-right: 20px;
+    background-color: transparent;
+    
+}
+
+.services #btn1 a {
+    color: #b00000;
+}
+
+.services #btn2 a{
+    
+    color: white;
+    
+}
+
+.services #btn2 {
+    background-color: #b00000;
+}
+
+.services .btnclass a {
+    text-decoration: none;
+}
+
+.services #btn1 a:hover{
+    color: white;
+}
+
+.services #btn1:hover{
+    background-color: #b00000;
+}
+
+.services #btn2:hover {
+    background-color: #970000;
+    border: 2px solid #970000;
+}
+
+
+
+/* .services .btn2 {
+    display: flex;
+} */
+
 /* -----------------------indivitual section start------------------------- */
 .imgbox {
     overflow: hidden;
@@ -159,19 +332,46 @@ nav a {
  /* ------------------Domestic section start-------------------  */
 .domestic {
     background-color: rgb(51, 51, 51);
+    margin-top: 45px;
+    
+}
+
+.domestic .con a{
+    color: #aaa;
+    /* padding: 0 5px; */
+    font-size: 12px;
+    text-decoration: none;
 }
 
 .domestic h2 {
     font-size: 34px;
 }
 
-.domestic h5 {
+.domestic .ags  {
     color: #aaa;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 4px;
+    padding-bottom: 25px;
+}
+
+.domestic .mov{
+    color: white;
+}
+
+.domestic p {
+    color: #aaa;
+    margin-top: 0px;
 }
 
 .domestic img:hover {
     transform: scale(1.1);
 }
+
+.domestic .con a:hover{
+    color: white;
+}
+    
  /* ------------------Domestic section end-------------------  */
 
 
@@ -189,6 +389,11 @@ nav a {
     font-weight: 500;
     line-height: 1.1;
     color: inherit;
+}
+
+.satisfaction p a {
+    text-decoration: none;
+    color: #b00000;
 }
 
 /*media query section start*/
