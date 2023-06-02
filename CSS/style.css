@@ -210,7 +210,7 @@ nav a{
 
 /* ---------------------------------------------------------------- */
 .row2 #shape {
-    background-image:linear-gradient(rgba(4, 4, 10, 0.8),rgba(3, 3, 6, 0.8)), url("./Image/slider3-virtual-visit5.png");
+    background-image:linear-gradient(rgba(4, 4, 10, 0.8),rgba(3, 3, 6, 0.8)), url("../Image/slider3-virtual-visit5.png");
     background-size: cover;
     height: 450px;
     margin: 0px;
@@ -398,7 +398,7 @@ nav a{
 
  /* ----------------World section start------------------ */
  .world {
-    background-image: url('./Image/removals_bg.jpg');
+    background-image: url('../Image/removals_bg.jpg');
     width: 1600px;
     max-width: 100%;
     margin-left: auto;
