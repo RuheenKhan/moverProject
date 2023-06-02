@@ -210,7 +210,7 @@ nav a{
 
 /* ---------------------------------------------------------------- */
 .row2 #shape {
-    background-image:linear-gradient(rgba(4, 4, 10, 0.8),rgba(3, 3, 6, 0.8)), url("/Image/slider3-virtual-visit5.png");
+    background-image:linear-gradient(rgba(4, 4, 10, 0.8),rgba(3, 3, 6, 0.8)), url("./Image/slider3-virtual-visit5.png");
     background-size: cover;
     height: 450px;
     margin: 0px;
@@ -396,6 +396,239 @@ nav a{
     color: #b00000;
 }
 
+ /* ----------------World section start------------------ */
+ .world {
+    background-image: url('./Image/removals_bg.jpg');
+    width: 1600px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-size: cover !important;
+    padding: 45px 0 40px 0;
+    clear: left;
+ }
+
+ .world h2 {
+    margin-top: 20px;
+    font-size: 34px;
+    color: #b00000;
+    margin-bottom: 15px;
+ }
+
+ .world .cont {
+    padding-top: 50px;
+ }
+
+ .world p {
+    line-height: 22px;
+    /* text-align: justify; */
+    margin-bottom: 15px;
+ }
+ .world .numbers-label {
+    width: 247.5px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: -1px 0px 5px #ffffff;
+ }
+
+ .world .numbers {
+    width: 247.5px;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 0px 0px 5px #ffffff;
+ }
+
+ .world .cont::before{
+    display: table;
+    content: " ";
+ }
+
+ .world .col-md-3:nth-child(1):before {
+    color: black;
+    content: '+';
+    font-size: 20px;
+    margin-top: -18px;
+    position: absolute;
+    font-weight: bold;
+    right: 1070px;
+ }
+
+ .world .col-md-3:nth-child(1):after {
+    content: '2';
+    font-size: 15px;
+    line-height: 0;
+    padding-left: 234px;
+    margin-top: -58px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.world .col-md-3:nth-child(1) p.numbers-label:after {
+    content: 'm';
+    font-size: 20px;
+    line-height: 0;
+    margin-left: 37px;
+    margin-top: -13px;
+    position: absolute;
+}
+
+ 
+
+ .world {
+        margin: 0 0 10px;
+    
+ }
+
+ .world .button a {
+    margin-top: 30px;
+    margin-bottom: 20px;
+ }
+
+ .world .button {
+    width: 400px;
+    /* border: 2px solid green; */
+    
+    margin: auto;
+    text-align: center;
+ }
+
+ .world .world_btn{
+    
+    font-size: 14px;
+    color: #fff;
+    background: #b00000;
+    border: none;
+    padding: 10px 50px 10px 50px;
+    text-align: center;
+    font-weight: 620;
+    margin: 13px 0 0 0;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.button .fa-chevron-right:before {
+    content: "\f054";
+}
+
+.world i {
+    
+    float: right;
+    font-size: 71px;
+    margin-right: 20px;
+}
+.button a:hover{
+
+text-decoration: none;
+    background-color: #9a0101;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+ 
+ /* ----------------World section end------------------ */
+
+
+ /* ---------------------------world wide section start--------------------------- */
+ .w-wide {
+    margin-top: 40px;
+ }
+
+ .world-side img{
+    max-width: 100%;
+    height: auto;
+    margin-top: -8px;
+ }
+
+ .world-side .world-img{
+    margin:0px auto 0 auto;
+ }
+.world-side h2 {
+    font-size: 34px;
+    color: #b00000;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.world-side h5 {
+    font-size: 18px;
+    max-width: 80%;
+    margin: 15px auto 20px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.1;
+    color: inherit;
+    font-family: inherit;
+}
+
+.w-country{
+    padding: 15px;
+    width: 900px;
+    margin: auto;
+}
+
+.w-country  a {
+    color: #b00000;
+}
+
+ .w-countr {
+    margin-top: 10px;
+    margin-left: 24%;
+}
+
+#indus  a:hover {
+    color: #630000;
+}
+
+.w-country .w-btn{
+    border: 2px solid #b00000;
+    float: left;
+    font-size: 14px;
+    color: #fff;
+    background: #b00000;
+    border: none;
+    padding: 10px 30px 10px 50px;
+    text-align: center;
+    font-weight: 600;
+    margin: 13px 0 0 0;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.w-country #w1 {
+    margin-right: 20px;
+    color: #b00000;
+    background-color: #fff;
+    border: 2px solid #b00000;
+}
+
+.w-country #w2{
+    color: white;
+}
+
+.w-country #w1:hover {
+    background-color: #b00000;
+    color: #fff;
+    transition: all .2s linear;
+    
+}
+
+.w-country #w2:hover {
+    transition: all .2s linear;
+    background-color: #9a0101;
+}
+
+
+/* ---------------------------world wide section start--------------------------- */
 /*media query section start*/
 @media only screen and (max-width:1024px) {
     header .tophead {
