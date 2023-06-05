@@ -122,6 +122,44 @@ nav a{
 .choosags:hover {
     /* transform: scale(1.1); */
 }
+
+
+
+/* -------------------------------our services------------------------------- */
+
+.mega-menu1 {
+    display: none;
+    background-color: #34313a;
+    color: white;
+    margin-top: 29px;
+    height: 70vh;
+}
+
+.mega-menu1 .col-md-8 {
+    border: 2px solid green;
+}
+
+.nav-item:hover .mega-menu1{
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.mega-menu1 .oservices {
+    margin-top: 8px;
+    text-align: center;
+}
+
+.mega-menu1 p {
+    margin-top: 0px;
+    border: 2px solid green;
+}
+
+.oservices img {
+    border: 2px solid green;
+    margin-bottom: 0px;
+}
 .nav-item:hover .mega-menu{
     display: block;
     position: absolute;
