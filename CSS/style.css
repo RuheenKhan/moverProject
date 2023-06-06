@@ -136,7 +136,7 @@ nav a{
 }
 
 .mega-menu1 .col-md-8 {
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 
 .nav-item:hover .mega-menu1{
@@ -153,11 +153,11 @@ nav a{
 
 .mega-menu1 p {
     margin-top: 0px;
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 
 .oservices img {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     margin-bottom: 0px;
 }
 .nav-item:hover .mega-menu{
@@ -814,6 +814,127 @@ text-decoration: none;
     margin-top: 10px;
     margin-bottom: 60px;
 }
+
+/* ----------------------network---------------------------- */
+.networkimg {
+    background-image: url('../Image/Network-pano-full-partner-2019-en.jpg');
+    width: 100%;
+    height: 70vh;
+
+}
+
+.networkags {
+    padding-top: 40px;
+    height: 250vh;
+    margin-top: -45px;
+    z-index: 9;
+    background-color: white;
+    text-align: center;
+}
+
+.networkags h1 {
+    
+    font-size: 36px;
+    color: #b00000;
+    margin: 0 0 20px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.networkags h5 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.1;
+    color: inherit;
+}
+
+
+
+.networkags .netcities{
+    margin-top: 50px;
+    text-align: left;
+}
+
+.netcities h3 {
+    font-size: 20px;
+    
+}
+
+.netcities h3 a{
+    color: #b00000;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.netcities p {
+    line-height: 22px;
+    text-align: justify;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.netcities h3 a:hover {
+    color: #640000;
+}
+
+.netcont ul {
+    list-style: none;
+}
+
+.netcont ul a {
+    text-decoration: none;
+    color: #292b2c;;
+}
+
+.netcont ul a:hover {
+    color: #b00000;
+}
+
+
+ /* -----------------------------------news section start------------------------------ */
+ .newssec {
+    background-image: url('../Image/News_1600X500-7-1-1.jpg');
+    width: 100%;
+    height: 70vh;
+ }
+
+
+ .newsags {
+    padding-top: 40px;
+    height: 250vh;
+    margin-top: -45px;
+    z-index: 9;
+    background-color: white;
+    text-align: center;
+}
+
+.newsags h1 {
+    
+    font-size: 36px;
+    color: #b00000;
+    margin: 0 0 20px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.newsags h5 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.newscont .col-lg-4{
+    width: 29%;
+    /* border: 2px solid blue; */
+    background-color: white;
+    height: 97%;
+}
+ /* -----------------------------------news section end------------------------------ */
+
+
+
+/* ----------------------network---------------------------- */
 /*media query section start*/
 @media only screen and (max-width:1024px) {
     header .tophead {
