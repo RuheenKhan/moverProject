@@ -825,7 +825,7 @@ text-decoration: none;
 
 .networkags {
     padding-top: 40px;
-    height: 260vh;
+    height: 250vh;
     margin-top: -45px;
     z-index: 9;
     background-color: white;
@@ -901,7 +901,7 @@ text-decoration: none;
 
  .newsags {
     padding-top: 40px;
-    height: 250vh;
+    height: 257vh;
     margin-top: -45px;
     z-index: 9;
     background-color: white;
@@ -924,12 +924,87 @@ text-decoration: none;
     color: inherit;
 }
 
-.newscont .col-lg-4{
+.newscont {
+    margin-top: 70px;
+}
+
+.newscont1 .col-lg-4{
     width: 29%;
     /* border: 2px solid blue; */
     background-color: white;
-    height: 97%;
+    margin:0 auto 30px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    /* height: 200%; */
 }
+
+.newscont1 h4 a{
+    text-decoration: none;
+    color: #b00000;
+    background-color: transparent;
+}
+
+.newscont1 h4 a:hover {
+    color: black;
+}
+
+.newscont1 h4 {
+    text-align: left;
+    font-size: 19px;
+    font-weight: 600;
+    margin: 10px 0 6px;
+}
+
+.newscont1 p {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: justify;
+    margin-bottom: 15px;
+    margin: 0 0 10px;
+}
+
+.newscont1 p a{
+    color: #b00000;
+}
+
+.newscont1 p a:hover {
+    color: #640000;
+}
+
+.newscont1 .corporate{
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.newsbtn button{
+    border: 1px solid #b00000;
+    color: #b00000;
+    padding: 7px 25px;
+    margin-right: 20px;
+    border-radius: 3px;
+    background: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.newsbtn .newstxt{
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+
+.newsbtn button:hover {
+    transition: all 0.2s;
+    color: #fff;
+    background: #b00000;
+}
+
  /* -----------------------------------news section end------------------------------ */
 
 
